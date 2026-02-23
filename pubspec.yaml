@@ -1,0 +1,77 @@
+name: nabd_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # --- Localization ---
+  easy_localization: ^3.0.7
+  intl: ^0.19.0
+ 
+  # --- UI & Design ---
+  cupertino_icons: ^1.0.6
+  flutter_screenutil: ^5.9.0
+  google_fonts: ^6.1.0
+  animate_do: ^4.2.0
+  lottie: ^3.3.1
+  flutter_speed_dial: ^7.0.0
+
+  # --- State Management ---
+  flutter_bloc: ^8.1.3
+  equatable: ^2.0.5
+
+  # --- Firebase (Backend) ---
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.16.0
+  cloud_firestore: ^4.14.0
+  firebase_storage: ^11.6.0
+  firebase_messaging: ^14.7.9
+  firebase_database: ^10.0.7
+  # --- Features ---
+  qr_flutter: ^4.1.0
+  mobile_scanner: ^3.5.5
+  fl_chart: ^0.66.0
+  flutter_local_notifications: ^18.0.0
+
+  # --- Camera & Permissions (الماسح الحيوي) ---
+  camera: ^0.10.5+9        # مكتبة الكاميرا
+  permission_handler: ^12.0.1
+
+  # --- Utils ---
+  uuid: ^4.3.3
+  url_launcher: ^6.2.4
+  image_picker: ^1.0.7
+  google_sign_in: ^6.2.1
+  flutter_facebook_auth: ^7.1.5
+  speech_to_text: ^7.3.0
+  health: ^13.1.3
+  http: ^1.6.0
+  file_picker: ^8.0.0   # للملفات الصوتية والمستندات PDF
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  photo_view: ^0.15.0
+  flutter_stripe: ^10.1.1
+  geolocator: ^13.0.1
+  file_picker: ^8.0.0        # للملفات (PDF, Docs)
+  record: ^5.1.0      
+  flutter_callkit_incoming: ^2.0.0+3
+  http: ^1.1.0 # عشان دالة إرسال الإشارة اللي عملناه        # لتسجيل الصوت
+  audioplayers: ^5.2.1        # لتشغيل الصوت
+  path_provider: ^2.1.2       # للتعامل مع مسارات الملفات
+  agora_rtc_engine: ^6.3.2  # 👈 المحرك الرئيسي للبث
+
+  # 👇 دي عشان توليد الـ QR Code في الروشتة
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/translations/

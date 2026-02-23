@@ -1,0 +1,8 @@
+{
+  "title": "Language Settings",
+  "change_msg": "Language changed successfully",
+  "settings": {
+    "language": "Language",
+    "notifications": "Notifications"
+  }
+}
